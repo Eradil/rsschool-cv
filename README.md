@@ -1,1 +1,1 @@
-[rsschool-cv](https://eradil.github.io/rsschool-cv/)
+[rsschool-cv](https://eradil.github.io/rsschool-cv/cv)
