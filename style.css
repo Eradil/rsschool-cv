@@ -1,3 +1,43 @@
-body{
-  color:red
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Lora", serif;
+}
+
+/* -----------------HEADER START--------------- */
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__rigth-block {
+  width: 30%;
+}
+.header__rigth-block--photo {
+  border-radius: 50%;
+}
+
+.header__left-block {
+  width: 70%;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__left-block--title {
+  font-size: 2.5rem;
+}
+.header__left-block--title span {
+  color: darkred;
 }
