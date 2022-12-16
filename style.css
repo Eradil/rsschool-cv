@@ -10,25 +10,30 @@
 .container {
   margin: 0 auto;
   padding: 0 20px;
+  width: 80%;
 }
 .header {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 90%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
 }
 
 .header__rigth-block {
-  width: 30%;
+  width: 300px;
+  text-align: center;
 }
 .header__rigth-block--photo {
   border-radius: 50%;
 }
 
 .header__left-block {
-  width: 70%;
-  height: 150px;
+  width: 300px;
+  height: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -36,7 +41,8 @@
 }
 
 .header__left-block--title {
-  font-size: 2.5rem;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 .header__left-block--title span {
   color: darkred;
