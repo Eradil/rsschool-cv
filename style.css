@@ -12,38 +12,220 @@
   padding: 0 20px;
   width: 80%;
 }
-.header {
+.main__inner {
   height: auto;
-  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.header__rigth-block {
+.main__inner__rigth {
   width: 300px;
   text-align: center;
 }
-.header__rigth-block--photo {
+.main__inner--photo {
   border-radius: 50%;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.06);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.06);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.06);
 }
 
-.header__left-block {
+.main__inner__left {
   width: 300px;
   height: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  color: #1b1b1b;
 }
 
-.header__left-block--title {
+.main__inner__left--title {
   font-size: 36px;
   margin-bottom: 10px;
 }
-.header__left-block--title span {
-  color: darkred;
+.main__inner__left--title span {
+  color: rgb(78, 110, 186);
+  /* font-family: "Permanent Marker"; */
 }
+
+/* --------------header end----------- */
+
+/* --------SECTION CONTACT-------------- */
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact h2 {
+  margin: 10px 0;
+  color: #1b1b1b;
+}
+
+.contact__list-item {
+  list-style: none;
+  margin: 7px 0;
+  font-size: 1rem;
+}
+
+.contact__list-item span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact__list-item a {
+  text-decoration: none;
+  color: #1b1b1b;
+}
+.contact__list-item a:hover {
+  color: deepskyblue;
+  border-bottom: 1px solid rgb(78, 110, 186);
+  transition: 0.2s;
+}
+/* ------------------ CONTACT END------------- */
+
+/* ------------------ ABOUT ME START------------- */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title {
+  text-align: center;
+}
+.about__descr {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.about__descr p {
+  margin: 10px 0;
+}
+
+/* ----------------SKILLS START---------------- */
+.fa-star {
+  color: #4d4c4e;
+  opacity: 0.5;
+}
+.checked {
+  color: orange;
+  opacity: 1;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+}
+.skill__title {
+  width: 300px;
+  text-align: center;
+}
+.skill__list {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.skill__item {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #1b1b1b;
+  font-size: 1rem;
+}
+/* ----------------SKILLS END---------------- */
+
+/* --------------code---------- */
+.code {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+pre {
+  background-color: rgb(78, 110, 186);
+  border-radius: 10px;
+}
+code {
+  color: aliceblue;
+}
+
+/* ----------courses */
+
+.courses {
+  text-align: center;
+}
+.courses__title {
+  margin: 10px 0;
+}
+.courses__item {
+  list-style: none;
+  font-size: 1.2rem;
+  background-color: rgb(78, 110, 186);
+  margin: 7px 0;
+  border-radius: 10px;
+  color: aliceblue;
+}
+/* ----------courses end */
+
+/* ----------------language-------------- */
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.language__title {
+  margin: 10px 0;
+}
+.language__item {
+  list-style: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.language__item::before {
+  content: "•";
+  font-size: 2.5rem;
+  color: rgb(78, 110, 186);
+}
+/* ----------------language end-------------- */
+
+/* -----------footer */
+
+.footer {
+  background-color: rgb(78, 110, 186);
+}
+
+.footer__link1 {
+}
+
+.footer__link2 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer_p {
+  color: aliceblue;
+}
+/* -----------footerend-------------- */
