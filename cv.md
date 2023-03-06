@@ -1,6 +1,6 @@
 # Eradil Abasbekov
 
-## Junior Frontend Developer
+## Frontend Developer
 
 ## Contact information
 
@@ -22,7 +22,7 @@ As a result of the training, I made several projects that, in my opinion, are qu
 
 ## Skills
 
-- HTML, CSS
+- HTML5, CSS3, SCSS
 - Java-Script
 - React
 - VS Code
@@ -36,16 +36,16 @@ let isPalindrome = function (x) {
   let string = x.toString().split("").reverse().join("");
   return x.toString() === string;
 };
-console.log(isPalindrome(asa));
 ```
 
 ### Courses
 
 - Jyldyz-Academy
-- RS School course "JavaScripts/Frontend. Stage 0" (in progress)
+- RS School course "JavaScripts/Frontend. Stage 0
+- RS School course "JavaScripts/Frontend. Stage 1(in progress)
 
 ## Languages
 
-- English - Pre-Intermediate.
+- English - Intermediate.
 - Kyrgyz - Native
 - Russian - second lenguage
