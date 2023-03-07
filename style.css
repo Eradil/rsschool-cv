@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-family: "Lora", serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 /* -----------------HEADER START--------------- */
@@ -211,8 +213,6 @@ code {
   background-color: rgb(78, 110, 186);
 }
 
-.footer__link1 {
-}
 
 .footer__link2 {
   font-size: 2rem;
